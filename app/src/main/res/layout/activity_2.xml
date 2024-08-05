@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+    <TextView
+        android:id="@+id/Activity2Text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#009688"
+        android:backgroundTint="#078176"
+        android:text="Activity 2"
+        android:textAlignment="center"
+        android:textColor="#F8F4F4"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/received_textView_activity2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/Activity2Text"
+        android:layout_marginTop="60dp"
+        android:background="#D54A40"
+        android:backgroundTint="#E1483D"
+        android:text="Recieved Message"
+        android:textAlignment="center"
+        android:textColor="#F8F4F4"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/show_msg_activity2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/received_textView_activity2"
+        android:layout_marginStart="40dp"
+        android:hint="Message.."
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/send_textView_activity2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/show_msg_activity2"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:background="#3B167E"
+        android:backgroundTint="#5222A6"
+        android:text="Send Message"
+        android:textAlignment="center"
+        android:textColor="#F8F4F4"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/send_text_id_activity2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_textView_activity2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Type here.."
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/send_button_id_activity2"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_text_id_activity2"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="100dp"
+        android:background="#3B167E"
+        android:backgroundTint="#5222A6"
+        android:text="SEND"
+        android:textColorLink="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+
